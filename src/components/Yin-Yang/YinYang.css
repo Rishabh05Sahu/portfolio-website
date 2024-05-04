@@ -1,0 +1,62 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+ .yinyang{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.yinyang-symbol{
+  position: relative;
+  background: #fff;
+  height: 200px;
+  border-color: #000;
+  border-style: solid;
+  width: 100px; 
+  border-width: 4px 100px 4px 4px;
+  border-radius: 50%;
+  animation: roll 13000s infinite;
+} 
+
+.yinyang-symbol:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background: #fff;
+  border: 36px solid #000;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  }
+
+
+.yinyang-symbol:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #000;
+  border: 36px solid #fff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+}
+
+
+@keyframes roll {
+  from {
+    transform:rotate(3600000deg);
+  }
+  to {
+    transform:rotate(0deg);
+  }
+}
+

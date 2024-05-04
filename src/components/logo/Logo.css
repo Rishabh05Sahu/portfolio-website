@@ -1,0 +1,12 @@
+.logo-text {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-family: Pacifico, cursive;
+    position: fixed;
+    left: 2rem;
+    top: 0.2rem;
+    z-index: 3;
+    font-size: 20px;
+  }
+  
+  

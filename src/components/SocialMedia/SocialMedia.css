@@ -1,0 +1,25 @@
+img{
+    height: 40px;
+    width: 40px;
+}
+
+.social-media{
+    position: fixed;
+    bottom: 10rem;
+    left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    
+}
+.ss-line{
+    position: fixed;
+    left: -15px;
+    bottom: 3.7rem;
+    transform: rotate(90deg);
+    height: 2px;
+    width: 130px;
+    background: black;
+    border: 1px solid black;
+}

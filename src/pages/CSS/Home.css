@@ -1,0 +1,46 @@
+.body{
+    background-color: rgb(252, 246, 244);
+}
+.resume,.project{
+    position: fixed;
+    top: 10rem;
+    left: 0.3rem;
+    font-size: 1.5rem;
+    font-family: Karla, sans-serif;
+    font-weight: 500;
+    transform: rotate(270deg);
+}
+.project:hover,.resume:hover{
+    transform: rotate(270deg)  translateY(0px) scale(1.1) translateZ(0px);
+}
+.project{
+    top: 20rem;
+    left: 0.4rem;
+    color: black;
+}
+.about,.my-skill{
+    position: fixed;
+    bottom: 1rem;
+    left: 30rem;
+    font-size: 1.5rem;
+    font-family: Karla, sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.my-skill:hover,.about:hover{
+    transform: translateY(0px) scale(1.1) translateZ(0px);
+}
+.my-skill{
+    left: 58rem;
+}
+.hi{
+    position: fixed;
+    top: 1.4rem;
+    right: 3rem;
+    font-size: 1.2rem;
+    font-family: Karla, sans-serif;
+    font-weight: 500;
+}
+.hi:hover{
+    transform: translateY(0px) scale(1.1) translateZ(0px);
+}
