@@ -1,31 +1,45 @@
-import React from 'react'
-import "../pages/CSS/Home.css"
-import YinYang from '../components/Yin-Yang/YinYang'
-import Logo from '../components/logo/Logo'
-import "../components/logo/Logo"
-import Back from '../components/Back/Back'
-import SocialMedia from '../components/SocialMedia/SocialMedia'
-import { Link } from 'react-router-dom'
-
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "../pages/CSS/Home.css";
+import Wheel from "../components/Wheel/Wheel";
+import Navbar from "../components/Navbar/Navbar";
+import SocialMedia from "../components/SocialMedia/SocialMedia";
+import HeroBox from "../components/HeroBox/HeroBox";
 
 const Home = () => {
+  const [symbolClick, setsymbolClick] = useState(false);
+
   return (
-    <div>
+    <div className={`home ${symbolClick ? "herobox-container " : ""}  `}>
+      <Navbar className={` ${symbolClick ? "socialmediaAbout " : ""}  `} />
+      {symbolClick ? <HeroBox /> : <></>}
+      <Wheel symbolClick={symbolClick} setsymbolClick={setsymbolClick} />
+      <Link style={{ textDecoration: "none" }} to="/projects">
+        <h2
+          className={`project-link ${symbolClick ? "socialmediaAbout " : ""}  `}
+        >
+          Projects
+        </h2>
+      </Link>
+      <Link style={{ textDecoration: "none" }} to="/about">
+        <h2
+          className={`about-link ${symbolClick ? "aboutabout  socialmediaAbout" : ""}  `}
+        >
+          About
+        </h2>
+      </Link>
+      <Link style={{ textDecoration: "none" }} to="/my-skills">
+        <h2 className="my-skill-link">My Skill</h2>
+      </Link>
+      <h2 className={`resume-link ${symbolClick ? "socialmediaAbout " : ""}  `}>
+        Resume
+      </h2>
+      <h3 className="hi-link">Say hi..</h3>
 
-      <Logo />
-      <Back />
-      <p className='hi'>Say hi..</p>
-      <YinYang />
-
-      <Link className="project" style={{ textDecoration: 'none' }} to="/projects">Projects</Link>
-      <Link className="about" style={{ textDecoration: 'none' }} to="/about">About</Link>
-      <Link className="my-skill" style={{ textDecoration: 'none' }} to="/my-skills">My Skill</Link>
-      <h3 className='resume'>Resume</h3>
-
-      <SocialMedia />
-
+      <SocialMedia className={` ${symbolClick ? "socialmediaAbout aboutabout " : ""}  `} />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
+

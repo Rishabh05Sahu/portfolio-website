@@ -1,52 +1,140 @@
-body{
-   background-color: rgb(252, 246, 244);
+/* my skill whole page  */
+.myskill{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(252, 246, 244);
+    
+    
 }
-.main-container{
-   display: flex;
-   gap: 10rem;
-}
-.left,.right{
-   height: 59vh;
-   width: 28vw;
-   border: 2px solid black;
-   padding: 2rem;
-   padding-bottom: 4rem;
-}
-.left:hover, .right:hover {
-   background-color: rgba(0, 0, 0, 0.73); /* Set background color to black on hover */
- }
- 
- .left:hover h2, .right:hover h2,
- .left:hover p, .right:hover p,
- .left:hover li, .right:hover li {
-   color: rgb(252, 246, 244); /* Set text color to white on hover */
- }
- 
- .left:hover img, .right:hover img {
-   filter: brightness(0) invert(1); /* Invert image color on hover */
- }
-
-.left-heading,.right-heading{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 1rem;
-}
-p,li{
-   color: rgb(0, 0, 0);
-   font-size: calc(0.4em + 1vw);
-   font-family: "Ubuntu Mono", monospace;
+.myskill {
+    animation: slideUp 1s ease forwards;
+    /* Define slide-up animation */
+    transform: translateY(100%);
+    /* Start from bottom */
+  }
   
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
+.skill-text-background{
+    position: fixed;
+    top: 80%;
+    right: 24%;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: calc(5rem + 5vw);
+    font-family: "Source Sans Pro", sans-serif;
 }
-.second-heading{
-   padding: .4rem 0px 0.rem 0px;
-   font-weight: bold;
+
+ /* my skill main container  */
+ 
+.main-skill-container{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+    font-family: "Ubuntu Mono", monospace;
+    margin-top: 4vh;
+    margin-left: 2vw;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    
+   
 }
-.my-skill-background-text{
-   position: fixed;
-   right: 27rem;
-   bottom: -7.2rem;
-   font-size: 140px;
-   color: rgba(0, 0, 0, 0.2);
-   font-family: "Source Sans Pro", sans-serif;
+.main-skill-container h2{
+    font-size: calc(1em + 1vw);
+    
+}
+
+/* left container  */
+
+.left-skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    border: 2px solid black;
+    width: 27vw;
+    height: 60vh;
+    padding: 2.7vw;
+    font-size: calc(.5em +3vw);
+   
+}
+.left-skill-container:hover, .right-skill-container:hover{
+    
+    background: rgba(0, 0, 0, 0.791);
+    color: white;
+}
+.first-left-skill-p{
+    font-size: calc(0.5em + 1vw);
+    padding: 0.5rem 0px;
+    font-size: 1.1rem;
+}
+
+/* right container  */
+
+.right-skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    border: 2px solid black;
+    width: 27vw;
+    height: 60vh;
+    padding: 2.7vw;
+    margin-top: 3;
+   
+}
+.right-skill-container h2{
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+}
+.first-right-skill-p{
+    font-size: calc(0.5em + 1vw);
+ 
+    font-size: 1.1rem;
+}
+
+
+@media(max-width:500px){
+    .myskill{
+        
+        display: flex;
+        flex-direction: column;
+
+    }
+    .main-skill-container{
+        padding-top: 10rem;
+        margin: 0;
+        flex-direction: column;
+        height: calc(100vh - 9rem);
+        overflow-y: scroll;
+    }
+    .left-skill-container{
+        gap: 0px;
+        width: 49vw;
+        height: 50vh;
+        padding: 2.7vw 6vw;
+        font-size:1rem;
+        padding-bottom: 3rem;
+    }
+    .right-skill-container{
+        gap: 0px;
+        width: 49vw;
+        height: 50vh;
+        padding: 2.7vw 6vw;
+        font-size:1rem;
+    }
+    .right-skill-container h2,p{
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    .skill-right-second-heading{
+        margin-top: 1rem;
+    }
 }

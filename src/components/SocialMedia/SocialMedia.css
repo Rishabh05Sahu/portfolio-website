@@ -1,25 +1,21 @@
-img{
-    height: 40px;
-    width: 40px;
-}
-
-.social-media{
-    position: fixed;
-    bottom: 10rem;
-    left: 2rem;
+.social-links-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 150px;
-    
-}
-.ss-line{
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
     position: fixed;
-    left: -15px;
-    bottom: 3.7rem;
-    transform: rotate(90deg);
-    height: 2px;
-    width: 130px;
-    background: black;
+    bottom: 0vh;
+    left: 2.2vw;
+    cursor: pointer;
+}
+.socialmediaAbout{
+    filter: brightness(0) invert(1);
+}
+.social-links-container img{
+    height: 5vh;
+}
+.social-links-container hr{
+    height: 20vh;
     border: 1px solid black;
 }

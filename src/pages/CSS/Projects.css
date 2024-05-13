@@ -1,10 +1,41 @@
-
-.card-container{
+.projects{
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    overflow-x: hidden;
+}
+.projects-work,.projects-swipe{
+  position: fixed;
+  top: 10%;
+  right: 20%;
+  color: rgba(252, 246, 244, 0.2);
+  font-size: calc(4rem + 5vw);
+  font-family: "Source Sans Pro", sans-serif;
+}
+.projects-swipe{
+  top: 80%;
+  right: 5%;
+}
+.projects {
+    animation: slideLeftToRight 1s ease forwards;
+    /* Define slide-left-to-right animation */
+    transform: translateX(-100%);
+    /* Start from left */
+  }
+  
+  @keyframes slideLeftToRight {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+.project-card-container{
     display: flex;
-    gap: 9rem;
-    /* padding: 0 100px; */
-    /* margin-left: 1000px; */
-    /* align-items: flex-start; */
-    /* justify-content: flex-start; */
+    width: 100%;
+    overflow-x: scroll;
+    gap: 4rem;
+    padding: 6rem 7rem;
     box-sizing: border-box;
 }

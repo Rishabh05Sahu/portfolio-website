@@ -1,46 +1,72 @@
-.body{
-    background-color: rgb(252, 246, 244);
+.home {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(252, 246, 244);
 }
-.resume,.project{
+.herobox-container {
+  background: linear-gradient(to right, black 50%, rgb(252, 246, 244) 50%);
+}
+
+.home h2,
+.home h3 {
+  position: fixed;
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+  width: fit-content;
+  color: black;
+}
+.about-link {
+  left: 30vw;
+  bottom: 3vh;
+  cursor: pointer;
+}
+.my-skill-link {
+  left: 68vw;
+  bottom: 3vh;
+  cursor: pointer;
+}
+.project-link {
+  rotate: -90deg;
+  top: 44vh;
+  cursor: pointer;
+}
+.resume-link {
+  rotate: -90deg;
+  top: 24vh;
+  cursor: pointer;
+}
+.hi-link {
+  top: 5vh;
+  right: 7vh;
+  cursor: pointer;
+}
+.about-link:hover,
+.hi-link:hover,
+.my-skill-link:hover,
+.project-link:hover,
+.resume-link:hover {
+  transform: scale(1.1);
+}
+.resumeabout{
+    filter: brightness(0) invert(1);
+}
+@media (max-width: 800px) {
+  .home h2,
+  .home h3 {
     position: fixed;
-    top: 10rem;
-    left: 0.3rem;
-    font-size: 1.5rem;
-    font-family: Karla, sans-serif;
+    font-family: "Karla", sans-serif;
     font-weight: 500;
-    transform: rotate(270deg);
-}
-.project:hover,.resume:hover{
-    transform: rotate(270deg)  translateY(0px) scale(1.1) translateZ(0px);
-}
-.project{
-    top: 20rem;
-    left: 0.4rem;
+    width: fit-content;
     color: black;
+    font-size: 20px;
+  }
 }
-.about,.my-skill{
-    position: fixed;
-    bottom: 1rem;
-    left: 30rem;
-    font-size: 1.5rem;
-    font-family: Karla, sans-serif;
-    font-weight: 500;
-    color: black;
-}
-.my-skill:hover,.about:hover{
-    transform: translateY(0px) scale(1.1) translateZ(0px);
-}
-.my-skill{
-    left: 58rem;
-}
-.hi{
-    position: fixed;
-    top: 1.4rem;
-    right: 3rem;
-    font-size: 1.2rem;
-    font-family: Karla, sans-serif;
-    font-weight: 500;
-}
-.hi:hover{
-    transform: translateY(0px) scale(1.1) translateZ(0px);
+@media(max-width:800px){
+    .herobox-container{
+        background: linear-gradient(to bottom, black 50%, rgb(252, 246, 244) 50%);
+    }
+    .project-link {
+      top: 42vh;
+      }
+ 
 }

@@ -5,10 +5,12 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 import MySkill from './pages/MySkill';
 import "../src/App.css"
+
+
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="app-container">
+      <div className="app">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
