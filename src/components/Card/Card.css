@@ -13,6 +13,10 @@
     position: relative;
     transition: transform ease 1500ms;
 }
+.card-front-content{
+    padding: 0rem 1.3rem;
+    margin-top: -3rem;
+}
 .card-front{
     display: flex;
     flex-direction: column;
@@ -76,11 +80,21 @@
     filter: brightness(0) invert(1);
     height: 8vh;
     margin-bottom: 3vh;
+    cursor: pointer;
+}
+.card-back-btn-container img:hover{
+    transform: scale(1.2);
+ 
 }
 .card-back-visit{
     height: 7vh;
     width: 10vw;
     border-radius: 0px 0px 0px 50px;
+    cursor: pointer;
+}
+.card-back-visit:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
 }
 @media(max-width:500px){
     .card-back-content{

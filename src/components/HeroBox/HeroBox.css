@@ -136,7 +136,7 @@
         bottom: 25vh;
         left: 52%;
         transform: translate(-50%, 0%);
-        width: 33%;
+        width: 40%;
         height: auto;
         animation: hero-img-in 3s ease  1 ;
     }

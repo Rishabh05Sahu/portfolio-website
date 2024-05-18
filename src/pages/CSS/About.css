@@ -72,7 +72,7 @@
    filter: brightness(1) invert(0);
  }
  .about-content{
-  padding:0vh 3vw;
+  padding:2vh 3vw;
   height: 49vh;
   font-size: calc(0.3rem + 1vw);
   top: 15rem;
@@ -83,6 +83,7 @@
     left: 15vw;
     width: 70vw;
     font-size: .61rem;
+
   }
 }
 

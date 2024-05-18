@@ -163,7 +163,7 @@
   .wheel{
     position: fixed;
     top: 35%;
-    left: 32%;
+    left: 25%;
   }
   @keyframes tobottom {
     from{
@@ -173,7 +173,7 @@
     }
     to{
       top: 74vh;
-      left: 70vw;
+      left: 63vw;
       transform: scale(.3);
     }}
 }

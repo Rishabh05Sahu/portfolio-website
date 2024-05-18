@@ -60,13 +60,16 @@
     color: black;
     font-size: 20px;
   }
+  .herobox-container{
+    background: linear-gradient(to bottom, black 50%, rgb(252, 246, 244) 50%);
 }
-@media(max-width:800px){
-    .herobox-container{
-        background: linear-gradient(to bottom, black 50%, rgb(252, 246, 244) 50%);
-    }
-    .project-link {
-      top: 42vh;
-      }
- 
+.project-link {
+  top: 42vh;
+  }
+}
+@media(max-width:500px){
+  .home h2,
+  .home h3{
+    font-size: 15px;
+  }
 }

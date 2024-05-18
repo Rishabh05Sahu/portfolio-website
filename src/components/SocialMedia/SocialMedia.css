@@ -19,3 +19,10 @@
     height: 20vh;
     border: 1px solid black;
 }
+@media(max-width:500px){
+  .social-links-container{
+    transform: scale(.8);
+    bottom: -3vh;
+  }
+ 
+}
