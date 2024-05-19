@@ -112,4 +112,7 @@
         width: 40vw;
         
     }
+    .card{
+        transform: scale(0.8);
+    }
 }
