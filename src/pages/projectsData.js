@@ -3,19 +3,40 @@ import hotel from "../assets/hotel.png"
 import pickup from "../assets/pickup.png"
 import drumKit from "../assets/drumKit.png"
 import ecomSite from "../assets/ecomSite.png"
+import noteverse from  "../assets/noteverse.png"
+import tictac from "../assets/tictactoe.png"
+
 
 const projectsData = [
   {
     id: 1,
-    name: "E-Commerce Site",
-    discription:"Built an e-commerce site using React, featuring dynamic product listings and a streamlined shopping experience.",
-    image: ecomSite,
-    tags:"#HTML #CSS #Javascript  #React.js",
-    link: "https://apniiidukaan.netlify.app/",
-    gitlink:"https://github.com/Rishabh05Sahu/e-com-site/tree/9cb8b58d5c8394ac9bf31e0630dce76dfb7e4ac5"
+    name: "Note Verse",
+    discription:"Crafted a notes management system that supports 40+ subjects and PYQs, simplifying academic resource access.",
+    image: noteverse,
+    tags:" #React.js #Node.js #Express.js #MongoDB ",
+    link: "https://note-versee.vercel.app/",
+    gitlink:"https://github.com/Rishabh05Sahu/noteverse"
   },
   {
     id: 2,
+    name: "Apni Dukaan",
+    discription:"Developed an e-commerce platform featuring 30+ products across 3 categories with advanced filtering capabilities.",
+    image: ecomSite,
+    tags:" #React.js #Node.js #Express.js #MongoDB ",
+    link: "https://apnii-dukan.vercel.app/",
+    gitlink:"https://github.com/Rishabh05Sahu/e-com-site"
+  },
+  {
+    id: 3,
+    name: "Tic Tac Toe",
+    discription:"A simple and interactive Tic Tac Toe game built with React, allowing users to play against each other with real-time updates and a smooth user interface.",
+    image: tictac,
+    tags:"#HTML #CSS #Javascript  ",
+    link: "https://rishabh05sahu.github.io/tic-tac-toe/",
+    gitlink:"https://github.com/Rishabh05Sahu/tic-tac-toe"
+  },
+  {
+    id: 4,
     name: "Drum Kit",
     discription:"Created an interactive drum kit using HTML, CSS, and JavaScript for an engaging musical experience.",
     image: drumKit,
@@ -24,7 +45,7 @@ const projectsData = [
     gitlink:"https://githuabh05Sahu/Drum-Kitb.com/Rish"
   },
   {
-    id: 3,
+    id: 5,
     name: "Pickup Line Generator",
     discription:"Created a fun and interactive pickup line generator using HTML, CSS, and JavaScript.",
     image: pickup,
@@ -33,7 +54,7 @@ const projectsData = [
     gitlink:"https://github.com/Rishabh05Sahu/pickup-line-generator"
   },
     {
-      id: 4,
+      id: 6,
       name: "Hotel Booking Site",
       discription:"Developed a user-friendly hotel booking website using HTML and CSS, enabling seamless reservation experiences.",
       image: hotel,

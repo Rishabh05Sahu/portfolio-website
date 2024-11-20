@@ -5,7 +5,7 @@ import Wheel from "../components/Wheel/Wheel";
 import Navbar from "../components/Navbar/Navbar";
 import SocialMedia from "../components/SocialMedia/SocialMedia";
 import HeroBox from "../components/HeroBox/HeroBox";
-import MyResume from "../assets/MyResume.pdf"
+
 
 const Home = () => {
   const [symbolClick, setsymbolClick] = useState(false);
@@ -32,15 +32,17 @@ const Home = () => {
       <Link style={{ textDecoration: "none" }} to="/my-skills">
         <h2 className="my-skill-link">My Skill</h2>
       </Link>
-      <a href={MyResume} target='_blank' ><h2 className={`resume-link ${symbolClick ? "socialmediaAbout " : ""}  `}>
-        Resume
-      </h2></a>
+      <a href="https://bit.ly/rishabhsahu-resume" target='_blank' rel='noopener noreferrer'>
+        <h2 className={`resume-link ${symbolClick ? "socialmediaAbout " : ""}`}>
+          Resume
+        </h2>
+      </a>
       <a
         href="mailto:rishabhsahu13873@gmail.com?subject=Contact&body=Hi, I would like to get in touch with you."
         target='_blank' className="hi-link"
         style={{ textDecoration: "none" }}
       >
-      <h3 className="hi-link">Say hi..</h3>
+        <h3 className="hi-link">Say hi..</h3>
       </a>
 
       <SocialMedia className={` ${symbolClick ? "socialmediaAbout aboutabout " : ""}  `} />
