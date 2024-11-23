@@ -5,7 +5,7 @@
     border: 2px solid;
     border-image: linear-gradient(to right, rgb(255, 254, 254) 50%, rgb(0, 0, 0) 50%);
     border-image-slice: 1; 
-   
+   display: flex;
     animation: herobox 2s ease  1 ;
     overflow: hidden;
 }
@@ -60,9 +60,13 @@
 }
 .herobox-left-content h6{
     color: rgba(252, 246, 244, 0.6);
-    font-size: calc(0.5rem + 1.5vw);
+    font-size: 3.5vh;
     font-weight: 300;
-    /* margin-top: -3vh; */
+  
+}
+.herobox-right{
+    width: 32%;
+    height: auto;
 }
 .herobox-right img{
     position: absolute;
@@ -73,28 +77,19 @@
     height: auto;
     animation: hero-img-in 3s ease  1 ;
 }
-
-/* @media(max-width:800px){
-    .herobox{
-        border-image: linear-gradient(to bottom, rgb(255, 254, 254) 50%, rgb(0, 0, 0) 50%);
-        border-image-slice: 1; 
-    }
-    .herobox-left-content{
-        padding: 1rem;
-    }
+@media(min-width:1150px){
+   
     .herobox-left-content h1{
-        font-size: 2rem;
-        margin-bottom: 0px;
-    
+        
+        margin-bottom: 1vh;
     }
     .herobox-left-content h3{
-        margin-bottom: 8rem;
-        font-size: 1.2rem;
+       
+        margin-bottom: 10vh;
     }
-    .herobox-left-content h6{
-        font-size: 1rem;
-    }
-} */
+  
+}
+
 @media(max-width:500px){
     .herobox{
         margin: 9.5vh 17.4vw;
