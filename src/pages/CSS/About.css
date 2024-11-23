@@ -66,6 +66,15 @@
   }
 }
 
+@media(min-width:1150px){
+  .about-content{
+    padding: 2vh 3vw;
+    height: auto;
+    margin-top: -6vh;
+  }
+
+
+}
 
 @media(max-width:500px){
  .aboutabout{

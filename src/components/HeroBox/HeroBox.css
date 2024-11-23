@@ -92,7 +92,7 @@
 
 @media(max-width:500px){
     .herobox{
-        margin: 9.5vh 17.4vw;
+        margin: 10.6vh 17.4vw;
         height: 55vh;
         width: 65vw;
         display: flex;
@@ -103,7 +103,7 @@
     }
     .herobox-left-content{
         height: 10vh;
-        padding: 1rem 2rem;
+        padding: 1rem 1.1rem;
         cursor: crosshair;
         display: flex;
       
@@ -124,7 +124,8 @@
         font-size: 1.2rem;
     }
     .herobox-left-content h6{
-        font-size: .9rem;
+        font-size: .8rem;
+       
     }
     .herobox-right img{
         position: absolute;

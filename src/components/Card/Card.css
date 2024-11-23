@@ -8,10 +8,10 @@
     /* margin-right: 8rem; */
     border-radius: 0px 50px;
     border: 1px solid rgb(0, 0, 0);
-    transition: all 0.2s ease 0s;
+    transition: all 0.9s ease 0s;
     /* margin-top: 12vh; */
     position: relative;
-    transition: transform ease 1500ms;
+    transition: transform ease 2000ms;
 }
 .card-front-content{
     padding: 0rem 1.3rem;
