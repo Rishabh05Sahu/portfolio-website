@@ -28,11 +28,11 @@ const projectsData = [
   },
   {
     id: 3,
-    name: "Tic Tac Toe",
+    name: "Customizable Tic Tac Toe",
     discription:"A simple and interactive Tic Tac Toe game built with React, allowing users to play against each other with real-time updates and a smooth user interface.",
     image: tictac,
-    tags:"#HTML #CSS #Javascript  ",
-    link: "https://rishabh05sahu.github.io/tic-tac-toe/",
+    tags:"#React #tailwind  ",
+    link: "https://tic-tac-toe-lyart-zeta.vercel.app/",
     gitlink:"https://github.com/Rishabh05Sahu/tic-tac-toe"
   },
   {
