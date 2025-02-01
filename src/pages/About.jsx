@@ -13,10 +13,10 @@ const About = () => {
       <SocialMedia className="socialmediaAbout"/>
 
      <div className= "about-content">
-     <p>I'm a Computer Science and Artificial Intelligence student, currently in my final year of BTech. Surrounded by an educational environment and esteemed mentors, I've enhanced my technical knowledge.</p>
+     <p>I'm a Computer Science  student, currently in my final year of BTech. Surrounded by an educational environment and esteemed mentors, I've enhanced my technical knowledge.</p>
     <br />
      <br />
-     <p>I have a keen interest in Web 2.0 and Web 3.0 technologies. Proficient in HTML, CSS, and JavaScript, I enjoy working with modern frameworks like React and Tailwind CSS. My aim is not just to write code, but to develop aesthetically pleasing and high-performance web applications.</p><br />
+     <p>I have a keen interest in Web 2.0 and Web 3.0 technologies. Proficient in HTML, CSS, and JavaScript, I enjoy working with modern frameworks like React, Redux, Tailwind CSS and NextJs. My aim is not just to write code, but to develop aesthetically pleasing and high-performance web applications.</p><br />
      <br />
      <p>I take pride in my practical projects, where I've built interactive web applications and user interfaces. My projects feature innovative designs and clean codebases, enhancing user engagement and usability.</p>
      </div>

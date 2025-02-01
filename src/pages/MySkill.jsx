@@ -21,7 +21,7 @@ const MySkill = () => {
               <br />
               <p>
                 {" "}
-                React.js, Node.js, Express.js , MongoDB, Material UI, Tailwind{" "}
+                Next.js, React.js, Redux, Node.js, Express.js , MongoDB, Material UI, Tailwind{" "}
               </p>
             </div>
             <div className="skill-left-tool">
