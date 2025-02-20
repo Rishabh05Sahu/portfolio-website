@@ -32,7 +32,7 @@ const MySkill = () => {
                 <li>Github</li>
                 <li>Postman</li>
                 <li>Vercel</li>
-                <li>Netlify</li>
+            
               </ul>
             </div>
           </div>
@@ -45,9 +45,12 @@ const MySkill = () => {
             </div>
 
             <div className="skill-right-second-heading">
-              <strong>I like to code in</strong>
+              <strong>I LIKE TO CODE IN</strong>
               <br />
-              <p> C++, Data Structures and Algorithms, SQL, DBMS, OS, OOPs</p>
+              <p> C++</p>
+              <strong>I KNOW</strong>
+              <br />
+              <p>  Data Structures and Algorithms, SQL, DBMS, OS, OOPs</p>
             </div>
             <div className="skill-right-tool">
               <strong>Tools</strong>

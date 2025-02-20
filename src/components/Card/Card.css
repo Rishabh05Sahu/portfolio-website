@@ -72,11 +72,12 @@
     padding-top: -1vh;
 }
 .card-back-btn-container{
-    height:7vh ;
-    width: 19vw;
+    height:6vh ;
+    width: 18vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 1rem;
 }
 .card-back-btn-container img{
     filter: brightness(0) invert(1);
@@ -84,6 +85,7 @@
     margin-bottom: 3vh;
     cursor: pointer;
     filter: brightness(1) invert(0);
+
 }
 .card-back-btn-container img:hover{
     transform: scale(1.2);

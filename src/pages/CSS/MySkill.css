@@ -118,11 +118,11 @@
     .left-skill-container{
         gap: 15px;
         width: 49vw;
-        height: 50vh;
+        height: 52vh;
         padding: 6vw 6vw 2.7vw 6vw;
         font-size:.8rem;
         padding-bottom: 3rem;
-        margin-top: 3rem;
+        margin-top: 5rem;
     }
     .first-left-skill-p{
         font-size: 1.9vh;
@@ -130,7 +130,7 @@
     .right-skill-container{
         gap: 10px;
         width: 49vw;
-        height: 50vh;
+        height: 52vh;
         padding: 6vw 6vw 2.7vw 6vw;
         font-size:.8rem;
         margin-bottom: 4rem;
